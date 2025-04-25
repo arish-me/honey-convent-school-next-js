@@ -5,6 +5,11 @@ export const SCHOOL_LOCATION = "Susner Agar Road, 465447";
 export const SCHOOL_PHONE = "9644275012";
 export const SCHOOL_EMAIL = "honeyconventschoolsusner@gmail.com";
 export const SCHOOL_ESTABLISHED = "2009";
+export const APPLY_LINK = "https://honeyconventschool.neetoform.com/1e5ad66569fea57d4f26";
+
+// Social Media Links
+export const FACEBOOK_LINK = "https://www.facebook.com/honeyconventschool";
+export const INSTAGRAM_LINK = "https://www.instagram.com/honeyconventschool";
 
 // SEO Constants
 export const SEO = {
@@ -27,6 +32,8 @@ export const SEO = {
     ACADEMICS: "academics, curriculum, CBSE, subjects, classes, education system, primary section, secondary section",
     ADMISSIONS: "admissions, enrollment, application, school admission process, admission criteria, academic year 2024, new admission",
     FEES: "school fees, fee structure, payment schedule, admission fees, tuition fees",
-    CONTACT: "contact Honey Convent School, school address, school phone number, school email, location"
+    CONTACT: "contact Honey Convent School, school address, school phone number, school email, location",
+    CAREERS: "teaching jobs, school careers, teaching positions, employment, school jobs, teacher recruitment, work at Honey Convent School, teacher vacancies",
+    GALLERY: "school gallery, photos, school events, student activities, campus images, school infrastructure, Honey Convent School photos"
   }
 }; 
