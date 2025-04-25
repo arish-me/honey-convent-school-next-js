@@ -3,11 +3,12 @@ import Link from 'next/link';
 export default function Header () {
     return(
         <>
+      {/* Hero section */}
       <section className="w-full py-16 md:py-28 lg:py-36 bg-gradient-to-r from-blue-600 via-blue-500 to-blue-700 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:60px_60px]"></div>
         <div className="absolute -top-40 -right-40 h-80 w-80 rounded-full bg-yellow-500 opacity-20 blur-3xl"></div>
         <div className="absolute -bottom-40 -left-40 h-80 w-80 rounded-full bg-blue-300 opacity-20 blur-3xl"></div>
-        <div className="container px-4 md:px-6 relative z-10">
+        <div className="max-w-[1400px] mx-auto px-4 md:px-6 relative z-10">
           <div className="flex flex-col items-center space-y-6 text-center">
             <div className="inline-block p-2 bg-blue-800/60 rounded-full backdrop-blur-sm mb-4">
               <div className="px-4 py-1 bg-yellow-500 text-blue-900 font-bold rounded-full text-sm">
