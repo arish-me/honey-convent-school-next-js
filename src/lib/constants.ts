@@ -5,6 +5,7 @@ export const SCHOOL_LOCATION = "Susner Agar Road, 465447";
 export const SCHOOL_PHONE = "9644275012";
 export const SCHOOL_EMAIL = "honeyconventschoolsusner@gmail.com";
 export const SCHOOL_ESTABLISHED = "2009";
+export const APPLY_LINK = "https://honeyconventschool.neetoform.com/1e5ad66569fea57d4f26";
 
 // SEO Constants
 export const SEO = {

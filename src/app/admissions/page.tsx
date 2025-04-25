@@ -267,8 +267,16 @@ export default function AdmissionsPage() {
           <h2 className="text-2xl font-bold mb-4">Begin Your Educational Journey with Us</h2>
           <p className="mb-6 max-w-2xl mx-auto">Take the first step towards providing your child with a quality education that focuses on holistic development.</p>
           <Link 
-            href="/contact" 
+            href="https://honeyconventschool.neetoform.com/7267ca70dc19b6308761" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-6 py-3 rounded-full bg-yellow-500 text-blue-900 font-semibold hover:bg-yellow-400 shadow-md transition duration-150 ease-in-out inline-block mr-4"
+          >
+            Admission Form
+          </Link>
+          <Link 
+            href="/contact" 
+            className="px-6 py-3 rounded-full bg-white text-blue-900 font-semibold hover:bg-blue-50 shadow-md transition duration-150 ease-in-out inline-block mr-4"
           >
             Contact Us
           </Link>

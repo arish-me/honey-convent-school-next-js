@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { ExternalLink, Briefcase, GraduationCap, CalendarClock, MapPin } from "lucide-react";
 import { Metadata } from "next";
-import { SEO, SCHOOL_NAME } from "@/lib/constants";
+import { SEO, SCHOOL_NAME, APPLY_LINK } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Careers",
@@ -29,7 +29,7 @@ export default function CareersPage() {
       type: "Full-time",
       location: "On-campus",
       postedDate: "May 15, 2024",
-      applyLink: "https://forms.gle/your-pre-primary-form-link",
+      applyLink: APPLY_LINK,
       description: "We are seeking enthusiastic and nurturing Pre-Primary teachers who are passionate about early childhood education. The ideal candidate will have experience in teaching young children and be able to create an engaging and supportive learning environment.",
       requirements: [
         "Bachelor's or Master's degree in Early Childhood Education",
@@ -53,7 +53,7 @@ export default function CareersPage() {
       type: "Full-time",
       location: "On-campus",
       postedDate: "May 12, 2024",
-      applyLink: "https://forms.gle/your-middle-school-form-link",
+      applyLink: APPLY_LINK,
       description: "We are looking for dedicated Middle School teachers with expertise in Mathematics, Science, Social Studies, or English. The ideal candidate will foster critical thinking and engage students in active learning.",
       requirements: [
         "Bachelor's or Master's degree in Education with specialization in relevant subject",
@@ -77,7 +77,7 @@ export default function CareersPage() {
       type: "Full-time",
       location: "On-campus",
       postedDate: "May 10, 2024",
-      applyLink: "https://forms.gle/your-higher-secondary-form-link",
+      applyLink: APPLY_LINK,
       description: "We are hiring experienced Higher Secondary teachers for Science and Commerce streams. The successful candidate will prepare students for board examinations and competitive tests while fostering a deep understanding of the subject.",
       requirements: [
         "Master's degree in relevant subject (Physics, Chemistry, Mathematics, Biology, Commerce, Economics)",
@@ -101,7 +101,7 @@ export default function CareersPage() {
       type: "Full-time",
       location: "On-campus",
       postedDate: "May 8, 2024",
-      applyLink: "https://forms.gle/your-sports-teacher-form-link",
+      applyLink: APPLY_LINK,
       description: "We are seeking an energetic and skilled Physical Education Teacher to lead our sports program. The ideal candidate will organize sports activities, coach school teams, and promote physical fitness among students.",
       requirements: [
         "Bachelor's or Master's degree in Physical Education",
