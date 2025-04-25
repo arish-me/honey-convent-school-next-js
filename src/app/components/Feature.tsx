@@ -38,7 +38,7 @@ export default function Feature () {
               </CardContent>
               <CardFooter>
                 <Link href="/academics" className="text-blue-600 inline-flex items-center text-sm font-medium group-hover:text-blue-700">
-                  Learn More <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  Explore Academic Programs <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Link>
               </CardFooter>
             </Card>
@@ -58,7 +58,7 @@ export default function Feature () {
               </CardContent>
               <CardFooter>
                 <Link href="/about" className="text-blue-600 inline-flex items-center text-sm font-medium group-hover:text-blue-700">
-                  Learn More <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  Discover Our Approach <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Link>
               </CardFooter>
             </Card>
@@ -78,7 +78,7 @@ export default function Feature () {
               </CardContent>
               <CardFooter>
                 <Link href="/about" className="text-blue-600 inline-flex items-center text-sm font-medium group-hover:text-blue-700">
-                  Learn More <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  View Our Facilities <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Link>
               </CardFooter>
             </Card>

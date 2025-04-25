@@ -32,7 +32,7 @@ export default function Header () {
             
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl drop-shadow-md">
-                Welcome to {SCHOOL_NAME}
+                {SCHOOL_NAME}
               </h1>
               <p className="mx-auto max-w-[800px] text-blue-100 md:text-xl lg:text-2xl font-light">
                 Nurturing young minds and shaping future leaders since <span className="font-medium">{SCHOOL_ESTABLISHED}</span>
