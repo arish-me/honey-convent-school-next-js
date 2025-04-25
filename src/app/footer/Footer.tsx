@@ -34,7 +34,10 @@ export default function Footer ()
                 <ul className="space-y-2">
                   <li><Link href="/about" className="text-gray-300 hover:text-white">About Us</Link></li>
                   <li><Link href="/academics" className="text-gray-300 hover:text-white">Academics</Link></li>
+                  <li><Link href="/gallery" className="text-gray-300 hover:text-white">Gallery</Link></li>
                   <li><Link href="/admissions" className="text-gray-300 hover:text-white">Admissions</Link></li>
+                  <li><Link href="/fees-structure" className="text-gray-300 hover:text-white">Fees Structure</Link></li>
+                  <li><Link href="/careers" className="text-gray-300 hover:text-white">Careers</Link></li>
                   <li><Link href="/contact" className="text-gray-300 hover:text-white">Contact Us</Link></li>
                 </ul>
               </div>

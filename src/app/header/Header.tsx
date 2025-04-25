@@ -14,7 +14,7 @@ export default function Header() {
 
   return (
     <header className="bg-gradient-to-r from-blue-600 to-blue-800 text-white shadow-lg sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="font-bold text-2xl text-white flex items-center gap-3">
@@ -73,8 +73,10 @@ export default function Header() {
             <Link href="/" className="text-white hover:text-yellow-300 px-3 py-2 text-sm font-medium transition duration-150 ease-in-out">Home</Link>
             <Link href="/about" className="text-white hover:text-yellow-300 px-3 py-2 text-sm font-medium transition duration-150 ease-in-out">About Us</Link>
             <Link href="/academics" className="text-white hover:text-yellow-300 px-3 py-2 text-sm font-medium transition duration-150 ease-in-out">Academics</Link>
+            <Link href="/gallery" className="text-white hover:text-yellow-300 px-3 py-2 text-sm font-medium transition duration-150 ease-in-out">Gallery</Link>
             <Link href="/admissions" className="text-white hover:text-yellow-300 px-3 py-2 text-sm font-medium transition duration-150 ease-in-out">Admissions</Link>
             <Link href="/fees-structure" className="text-white hover:text-yellow-300 px-3 py-2 text-sm font-medium transition duration-150 ease-in-out">Fees</Link>
+            <Link href="/careers" className="text-white hover:text-yellow-300 px-3 py-2 text-sm font-medium transition duration-150 ease-in-out">Careers</Link>
             <Link href="/contact" className="text-white hover:text-yellow-300 px-3 py-2 text-sm font-medium transition duration-150 ease-in-out">Contact</Link>
             <Link 
               href="/admissions" 
@@ -111,6 +113,13 @@ export default function Header() {
             Academics
           </Link>
           <Link 
+            href="/gallery" 
+            className="block px-3 py-2 rounded-md text-white hover:bg-blue-600 text-center font-medium"
+            onClick={toggleMenu}
+          >
+            Gallery
+          </Link>
+          <Link 
             href="/admissions" 
             className="block px-3 py-2 rounded-md text-white hover:bg-blue-600 text-center font-medium"
             onClick={toggleMenu}
@@ -123,6 +132,13 @@ export default function Header() {
             onClick={toggleMenu}
           >
             Fees
+          </Link>
+          <Link 
+            href="/careers" 
+            className="block px-3 py-2 rounded-md text-white hover:bg-blue-600 text-center font-medium"
+            onClick={toggleMenu}
+          >
+            Careers
           </Link>
           <Link 
             href="/contact" 
