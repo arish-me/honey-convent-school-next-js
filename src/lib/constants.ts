@@ -7,6 +7,10 @@ export const SCHOOL_EMAIL = "honeyconventschoolsusner@gmail.com";
 export const SCHOOL_ESTABLISHED = "2009";
 export const APPLY_LINK = "https://honeyconventschool.neetoform.com/1e5ad66569fea57d4f26";
 
+// Social Media Links
+export const FACEBOOK_LINK = "https://www.facebook.com/honeyconventschool";
+export const INSTAGRAM_LINK = "https://www.instagram.com/honeyconventschool";
+
 // SEO Constants
 export const SEO = {
   DEFAULT_TITLE: `${SCHOOL_NAME} - ${SCHOOL_TAGLINE}`,
