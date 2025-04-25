@@ -20,7 +20,7 @@ export const SEO = {
   
   // OpenGraph
   OG_TYPE: "website" as const,
-  OG_IMAGE: "/og-image.png", // This should be a high-quality image with the school logo and name
+  OG_IMAGE: "/og-logo.png", // This should be a high-quality image with the school logo and name
   
   // Twitter
   TWITTER_CARD: "summary_large_image" as const,

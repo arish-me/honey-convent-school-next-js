@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://honeyconventschoolsusner.com/sitemap.xml 
