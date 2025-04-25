@@ -24,10 +24,10 @@ export const metadata: Metadata = {
 
 export default function FeesStructurePage() {
   return (
-    <div className="relative">
-      {/* Background decorative elements */}
-      <div className="absolute -top-20 -right-20 h-80 w-80 rounded-full bg-yellow-500 opacity-10 blur-3xl"></div>
-      <div className="absolute -bottom-40 -left-40 h-80 w-80 rounded-full bg-blue-300 opacity-10 blur-3xl"></div>
+    <div className="relative overflow-hidden">
+      {/* Background decorative elements - adjusted for visibility */}
+      <div className="absolute -top-10 -right-10 h-96 w-96 rounded-full bg-yellow-500 opacity-20 blur-3xl z-0"></div>
+      <div className="absolute -bottom-20 -left-10 h-96 w-96 rounded-full bg-blue-300 opacity-20 blur-3xl z-0"></div>
       
       <div className="container max-w-6xl mx-auto py-12 px-4 md:px-6 relative z-10">
         <div className="flex flex-col items-center space-y-4 text-center mb-10">

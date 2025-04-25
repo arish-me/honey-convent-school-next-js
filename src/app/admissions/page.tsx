@@ -21,10 +21,10 @@ export const metadata: Metadata = {
 
 export default function AdmissionsPage() {
   return (
-    <div className="relative">
-      {/* Background decorative elements */}
-      <div className="absolute -top-20 -right-20 h-80 w-80 rounded-full bg-yellow-500 opacity-10 blur-3xl"></div>
-      <div className="absolute -bottom-40 -left-40 h-80 w-80 rounded-full bg-blue-300 opacity-10 blur-3xl"></div>
+    <div className="relative overflow-hidden">
+      {/* Background decorative elements - adjusted for visibility */}
+      <div className="absolute -top-10 -right-10 h-96 w-96 rounded-full bg-yellow-500 opacity-20 blur-3xl z-0"></div>
+      <div className="absolute -bottom-20 -left-10 h-96 w-96 rounded-full bg-blue-300 opacity-20 blur-3xl z-0"></div>
       
       <div className="container max-w-6xl mx-auto py-12 px-4 md:px-6 relative z-10">
         <div className="flex flex-col items-center space-y-4 text-center mb-10">
@@ -266,6 +266,7 @@ export default function AdmissionsPage() {
         <div className="mt-12 p-6 bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg text-white text-center">
           <h2 className="text-2xl font-bold mb-4">Begin Your Educational Journey with Us</h2>
           <p className="mb-6 max-w-2xl mx-auto">Take the first step towards providing your child with a quality education that focuses on holistic development.</p>
+          <div className="flex items-center justify-between">
           <Link 
             href="https://honeyconventschool.neetoform.com/7267ca70dc19b6308761" 
             target="_blank"
@@ -286,6 +287,7 @@ export default function AdmissionsPage() {
           >
             View Fees Structure
           </Link>
+          </div>
         </div>
       </div>
     </div>
