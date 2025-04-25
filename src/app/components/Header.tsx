@@ -22,7 +22,7 @@ export default function Header () {
             {/* Added school logo */}
             <div className="bg-white rounded-full p-2 shadow-lg mb-4 border-4 border-yellow-400">
               <Image 
-                src="/logo1.png" 
+                src="/logo.png" 
                 alt={`${SCHOOL_NAME} Logo`} 
                 width={120} 
                 height={120} 
