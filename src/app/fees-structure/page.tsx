@@ -4,6 +4,23 @@ import { Alert, AlertTitle, AlertDescription } from "@/components/ui/alert";
 import { InfoIcon } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Link from "next/link";
+import { Metadata } from "next";
+import { SEO, SCHOOL_NAME } from "@/lib/constants";
+
+export const metadata: Metadata = {
+  title: "Fees Structure",
+  description: `View the fee structure for ${SCHOOL_NAME} for the academic year 2024-25. Learn about admission fees, tuition fees, and payment options.`,
+  keywords: SEO.KEYWORDS.FEES,
+  alternates: {
+    canonical: '/fees-structure',
+  },
+  openGraph: {
+    title: `Fees Structure | ${SCHOOL_NAME}`,
+    description: `View the fee structure for ${SCHOOL_NAME} for the academic year 2024-25. Learn about admission fees, tuition fees, and payment options.`,
+    url: `${SEO.CANONICAL_URL}/fees-structure`,
+    type: SEO.OG_TYPE,
+  },
+};
 
 export default function FeesStructurePage() {
   return (

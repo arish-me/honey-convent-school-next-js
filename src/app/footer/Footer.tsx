@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { SCHOOL_NAME, SCHOOL_FULL_NAME, SCHOOL_LOCATION, SCHOOL_PHONE, SCHOOL_EMAIL, SCHOOL_ESTABLISHED } from "@/lib/constants";
 
 export default function Footer ()
 {
@@ -12,21 +13,21 @@ export default function Footer ()
                   <div className="bg-white rounded-full p-1 shadow-md">
                     <Image 
                       src="/logo.png" 
-                      alt="Honey Convent School Logo" 
+                      alt={`${SCHOOL_NAME} Logo`} 
                       width={50} 
                       height={50} 
                       className="rounded-full" 
                     />
                   </div>
-                  <h3 className="text-lg font-semibold">Honey Convent School</h3>
+                  <h3 className="text-lg font-semibold">{SCHOOL_NAME}</h3>
                 </div>
-                <p className="text-gray-300">Providing quality education since 2009.</p>
+                <p className="text-gray-300">Providing quality education since {SCHOOL_ESTABLISHED}.</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-4">Contact Information</h3>
-                <p className="text-gray-300">Honey Convent Higher Secondary School Susner Agar Road 465447</p>
-                <p className="text-gray-300">Phone: 9644275012</p>
-                <p className="text-gray-300">Email: honeyconventschoolsusner@gmail.com</p>
+                <p className="text-gray-300">{SCHOOL_FULL_NAME} {SCHOOL_LOCATION}</p>
+                <p className="text-gray-300">Phone: {SCHOOL_PHONE}</p>
+                <p className="text-gray-300">Email: {SCHOOL_EMAIL}</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
@@ -39,7 +40,7 @@ export default function Footer ()
               </div>
             </div>
             <div className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-300">
-              <p>&copy; {new Date().getFullYear()} Honey Convent School. All rights reserved.</p>
+              <p>&copy; {new Date().getFullYear()} {SCHOOL_NAME}. All rights reserved.</p>
             </div>
           </div>
         </footer>

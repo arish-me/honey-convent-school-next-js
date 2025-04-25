@@ -1,6 +1,23 @@
+import { Metadata } from "next";
+import { SEO, SCHOOL_NAME } from "@/lib/constants";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+
+export const metadata: Metadata = {
+  title: "Admissions",
+  description: `Apply for admission to ${SCHOOL_NAME}. Learn about our admission process, eligibility criteria, required documents, and important dates for the 2024-25 academic year.`,
+  keywords: SEO.KEYWORDS.ADMISSIONS,
+  alternates: {
+    canonical: '/admissions',
+  },
+  openGraph: {
+    title: `Admissions | ${SCHOOL_NAME}`,
+    description: `Apply for admission to ${SCHOOL_NAME}. Learn about our admission process, eligibility criteria, and required documents.`,
+    url: `${SEO.CANONICAL_URL}/admissions`,
+    type: SEO.OG_TYPE,
+  },
+};
 
 export default function AdmissionsPage() {
   return (

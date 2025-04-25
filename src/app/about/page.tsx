@@ -3,6 +3,23 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from "next";
+import { SEO, SCHOOL_NAME, SCHOOL_ESTABLISHED } from "@/lib/constants";
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description: `Learn about ${SCHOOL_NAME}'s history, mission, values, and leadership. Established in ${SCHOOL_ESTABLISHED}, we are committed to providing quality education and holistic development.`,
+  keywords: SEO.KEYWORDS.ABOUT,
+  alternates: {
+    canonical: '/about',
+  },
+  openGraph: {
+    title: `About ${SCHOOL_NAME}`,
+    description: `Learn about ${SCHOOL_NAME}'s history, mission, values, and leadership. Established in ${SCHOOL_ESTABLISHED}.`,
+    url: `${SEO.CANONICAL_URL}/about`,
+    type: SEO.OG_TYPE,
+  },
+};
 
 export default function AboutPage() {
   return (

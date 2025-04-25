@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import Image from 'next/image';
+import { SCHOOL_NAME, SCHOOL_ESTABLISHED } from '@/lib/constants';
 
 export default function Header () {
     return(
@@ -21,8 +22,8 @@ export default function Header () {
             {/* Added school logo */}
             <div className="bg-white rounded-full p-2 shadow-lg mb-4 border-4 border-yellow-400">
               <Image 
-                src="/logo.png" 
-                alt="Honey Convent School Logo" 
+                src="/logo1.png" 
+                alt={`${SCHOOL_NAME} Logo`} 
                 width={120} 
                 height={120} 
                 className="rounded-full" 
@@ -31,10 +32,10 @@ export default function Header () {
             
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl drop-shadow-md">
-                Welcome to Honey Convent School
+                Welcome to {SCHOOL_NAME}
               </h1>
               <p className="mx-auto max-w-[800px] text-blue-100 md:text-xl lg:text-2xl font-light">
-                Nurturing young minds and shaping future leaders since <span className="font-medium">2009</span>
+                Nurturing young minds and shaping future leaders since <span className="font-medium">{SCHOOL_ESTABLISHED}</span>
               </p>
             </div>
             <div className="flex flex-wrap justify-center gap-4 mt-6">

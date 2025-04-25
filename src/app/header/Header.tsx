@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import { SCHOOL_NAME } from "@/lib/constants";
 
 
 export default function Header() {
@@ -20,11 +21,11 @@ export default function Header() {
               <div className="bg-white h-12 w-12 md:h-14 md:w-14 rounded-full flex items-center justify-center shadow-lg overflow-hidden border-2 border-yellow-400">
                 <img 
                   src="/logo.png" 
-                  alt="Honey Convent School Logo" 
+                  alt={`${SCHOOL_NAME} Logo`} 
                   className="h-full w-full object-contain p-0.5"
                 />
               </div>
-              <span className="hidden sm:block">Honey Convent School</span>
+              <span className="hidden sm:block">{SCHOOL_NAME}</span>
             </Link>
           </div>
           

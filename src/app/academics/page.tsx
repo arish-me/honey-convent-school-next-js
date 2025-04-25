@@ -1,5 +1,22 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
+import { Metadata } from "next";
+import { SEO, SCHOOL_NAME } from "@/lib/constants";
+
+export const metadata: Metadata = {
+  title: "Academics",
+  description: `Explore ${SCHOOL_NAME}'s academic programs from nursery to 12th grade, including specialized Science and Commerce streams. Our comprehensive curriculum focuses on holistic development and academic excellence.`,
+  keywords: SEO.KEYWORDS.ACADEMICS,
+  alternates: {
+    canonical: '/academics',
+  },
+  openGraph: {
+    title: `Academics | ${SCHOOL_NAME}`,
+    description: `Explore ${SCHOOL_NAME}'s academic programs from nursery to 12th grade, including specialized Science and Commerce streams.`,
+    url: `${SEO.CANONICAL_URL}/academics`,
+    type: SEO.OG_TYPE,
+  },
+};
 
 export default function AcademicsPage() {
   return (
