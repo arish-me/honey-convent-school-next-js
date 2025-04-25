@@ -1,5 +1,7 @@
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import Image from 'next/image';
+
 export default function Header () {
     return(
         <>
@@ -15,6 +17,18 @@ export default function Header () {
                 Admissions Open for 2024-25
               </div>
             </div>
+            
+            {/* Added school logo */}
+            <div className="bg-white rounded-full p-2 shadow-lg mb-4 border-4 border-yellow-400">
+              <Image 
+                src="/logo.png" 
+                alt="Honey Convent School Logo" 
+                width={120} 
+                height={120} 
+                className="rounded-full" 
+              />
+            </div>
+            
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl drop-shadow-md">
                 Welcome to Honey Convent School

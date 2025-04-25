@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 export default function Footer ()
 {
     return(
@@ -6,7 +8,18 @@ export default function Footer ()
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div>
-                <h3 className="text-lg font-semibold mb-4">Honey Convent School</h3>
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="bg-white rounded-full p-1 shadow-md">
+                    <Image 
+                      src="/logo.png" 
+                      alt="Honey Convent School Logo" 
+                      width={50} 
+                      height={50} 
+                      className="rounded-full" 
+                    />
+                  </div>
+                  <h3 className="text-lg font-semibold">Honey Convent School</h3>
+                </div>
                 <p className="text-gray-300">Providing quality education since 2009.</p>
               </div>
               <div>

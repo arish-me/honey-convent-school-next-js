@@ -18,6 +18,19 @@ export default function AboutPage() {
               Established 2009
             </div>
           </div>
+          
+          {/* Added school logo */}
+          <div className="bg-white rounded-full p-3 shadow-lg mb-6 border-4 border-yellow-400">
+            <Image 
+              src="/logo.png" 
+              alt="Honey Convent School Logo" 
+              width={150} 
+              height={150} 
+              className="rounded-full" 
+              priority
+            />
+          </div>
+          
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-blue-900">
             About Honey Convent School
           </h1>

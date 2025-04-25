@@ -16,9 +16,13 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
-            <Link href="/" className="font-bold text-2xl text-white flex items-center gap-2">
-              <div className="bg-white text-blue-700 h-10 w-10 rounded-full flex items-center justify-center font-bold text-xl shadow-md">
-                HCS
+            <Link href="/" className="font-bold text-2xl text-white flex items-center gap-3">
+              <div className="bg-white h-12 w-12 md:h-14 md:w-14 rounded-full flex items-center justify-center shadow-lg overflow-hidden border-2 border-yellow-400">
+                <img 
+                  src="/logo.png" 
+                  alt="Honey Convent School Logo" 
+                  className="h-full w-full object-contain p-0.5"
+                />
               </div>
               <span className="hidden sm:block">Honey Convent School</span>
             </Link>
