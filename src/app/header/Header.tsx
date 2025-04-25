@@ -73,7 +73,9 @@ export default function Header() {
             <Link href="/" className="text-white hover:text-yellow-300 px-3 py-2 text-sm font-medium transition duration-150 ease-in-out">Home</Link>
             <Link href="/about" className="text-white hover:text-yellow-300 px-3 py-2 text-sm font-medium transition duration-150 ease-in-out">About Us</Link>
             <Link href="/academics" className="text-white hover:text-yellow-300 px-3 py-2 text-sm font-medium transition duration-150 ease-in-out">Academics</Link>
-            <Link href="/gallery" className="text-white hover:text-yellow-300 px-3 py-2 text-sm font-medium transition duration-150 ease-in-out">Gallery</Link>
+           
+           { false && <Link href="/gallery" className="text-white hover:text-yellow-300 px-3 py-2 text-sm font-medium transition duration-150 ease-in-out">Gallery</Link> }
+           
             <Link href="/admissions" className="text-white hover:text-yellow-300 px-3 py-2 text-sm font-medium transition duration-150 ease-in-out">Admissions</Link>
             <Link href="/fees-structure" className="text-white hover:text-yellow-300 px-3 py-2 text-sm font-medium transition duration-150 ease-in-out">Fees</Link>
             <Link href="/careers" className="text-white hover:text-yellow-300 px-3 py-2 text-sm font-medium transition duration-150 ease-in-out">Careers</Link>
@@ -112,13 +114,15 @@ export default function Header() {
           >
             Academics
           </Link>
+          {false && 
+          <>
           <Link 
             href="/gallery" 
             className="block px-3 py-2 rounded-md text-white hover:bg-blue-600 text-center font-medium"
             onClick={toggleMenu}
-          >
+          > 
             Gallery
-          </Link>
+          </Link></>}
           <Link 
             href="/admissions" 
             className="block px-3 py-2 rounded-md text-white hover:bg-blue-600 text-center font-medium"
