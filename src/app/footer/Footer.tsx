@@ -7,13 +7,13 @@ export default function Footer ()
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div>
                 <h3 className="text-lg font-semibold mb-4">Honey Convent School</h3>
-                <p className="text-gray-300">Providing quality education since [founding year].</p>
+                <p className="text-gray-300">Providing quality education since 2009.</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-4">Contact Information</h3>
-                <p className="text-gray-300">[School Address]</p>
-                <p className="text-gray-300">Phone: [School Phone]</p>
-                <p className="text-gray-300">Email: [School Email]</p>
+                <p className="text-gray-300">Honey Convent Higher Secondary School Susner Agar Road 465447</p>
+                <p className="text-gray-300">Phone: 9644275012</p>
+                <p className="text-gray-300">Email: honeyconventschoolsusner@gmail.com</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-4">Quick Links</h3>

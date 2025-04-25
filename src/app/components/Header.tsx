@@ -20,7 +20,7 @@ export default function Header () {
                 Welcome to Honey Convent School
               </h1>
               <p className="mx-auto max-w-[800px] text-blue-100 md:text-xl lg:text-2xl font-light">
-                Nurturing young minds and shaping future leaders since <span className="font-medium">1995</span>
+                Nurturing young minds and shaping future leaders since <span className="font-medium">2009</span>
               </p>
             </div>
             <div className="flex flex-wrap justify-center gap-4 mt-6">
